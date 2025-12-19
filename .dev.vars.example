@@ -1,0 +1,14 @@
+# GitHub API Token (requires read:user scope)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# GitHub usernames to monitor (JSON array format)
+GITHUB_USERNAMES=["user1","user2","user3"]
+
+# Discord Webhook URL
+DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/xxxxx/yyyyy
+
+# API Key for /check endpoint authentication
+API_KEY=your_secret_api_key_here
+
+# Cron execution hour in UTC (e.g., 11 for 20:00 JST)
+CRON_HOUR=11
