@@ -40,6 +40,7 @@ export async function getUserContributions(
     headers: {
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
+      'User-Agent': 'commit-reminder-discord-bot',
     },
     body: JSON.stringify({
       query,

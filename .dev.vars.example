@@ -10,8 +10,5 @@ DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/xxxxx/yyyyy
 # API Key for /check endpoint authentication
 API_KEY=your_secret_api_key_here
 
-# Cron execution hour in UTC (e.g., 11 for 20:00 JST)
-CRON_HOUR=11
-
 # Timezone offset from UTC in hours (e.g., 9 for JST, -5 for EST)
 TIMEZONE_OFFSET=9
